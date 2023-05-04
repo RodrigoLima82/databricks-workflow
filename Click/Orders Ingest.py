@@ -25,7 +25,7 @@ def ingest_all_orders():
 
   
   
-  if randint(1,100) > 95:
+  if randint(1,10) > 7:
     raise ConnectionError("connection refused / external API")
     
 
